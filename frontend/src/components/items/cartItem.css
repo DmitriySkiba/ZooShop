@@ -1,0 +1,25 @@
+.cartItem h2{
+    padding: 0 10px 10px 10px;
+    width: 500px;
+    white-space: normal;
+    color: #1e3123;
+    font-weight: 700;
+
+    font-family: Noto Sans;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cartItem h1{
+    padding: 0 10px 10px 10px;
+    width: 230px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: #1e3123;
+    font-weight: 700;
+    font-family: Noto Sans;
+    font-size: 18px;
+    overflow: hidden;
+}

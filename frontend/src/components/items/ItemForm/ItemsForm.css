@@ -1,0 +1,51 @@
+.Form{
+    width: 30vw;
+}
+.Form select{
+    background-color: #36593e;
+    box-shadow: 9px 6px #5EAB6B;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Noto Sans;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Form select:hover{
+    background-color: #2a4430;
+}
+.Form select:active{
+    background-color: #1e3123;
+}
+.Form__option{
+    background-color: #36593e;
+
+    border-radius: 25px;
+    font-family: Noto Sans;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Form button{
+    background-color: #36593e;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: Noto Sans;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Form button:hover{
+    background-color: #2a4430;
+}
+.Form button:active{
+    background-color: #1e3123;
+}

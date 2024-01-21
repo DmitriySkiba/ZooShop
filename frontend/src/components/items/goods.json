@@ -1,0 +1,13 @@
+{
+    "objects": [
+      {
+        "name": "корм 1",
+        "price": 100,
+        "photo": "",
+        "vcode": "47839160",
+        "category": "dog",
+        "subcategory": "feeds"
+      }
+    ]
+  }
+  

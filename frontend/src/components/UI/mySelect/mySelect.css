@@ -1,0 +1,16 @@
+.Myselect{
+    background-color: #36593e;
+    box-shadow: 9px 6px #5EAB6B;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+
+    font-family: Noto Sans;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}

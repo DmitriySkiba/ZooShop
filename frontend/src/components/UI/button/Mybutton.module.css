@@ -1,0 +1,22 @@
+.myBtn {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 25px;
+
+    color: white;
+    font-weight: 700;
+    font-family: Noto Sans;
+    font-size: 16px;
+
+    background: rgba(53, 94, 60, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.myBtn:hover{
+    background: rgb(45, 80, 51);
+}
+.myBtn:active{
+    background: rgb(33, 61, 38);
+}

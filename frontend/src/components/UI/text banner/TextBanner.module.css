@@ -1,0 +1,17 @@
+.TextBanner{
+    margin-top: 16px;
+    margin-left: 12.5vw;
+    width: max-content;
+    max-width: 75vw;
+    height: max-content;
+    max-height: 300px;
+    box-shadow: 9px 6px #5EAB6B;
+    background: rgba(53, 94, 60, 1) ;
+    border-radius: 25px;
+
+    padding: 5px 20px;
+
+    color: white;
+
+    font-family: Noto Sans, serif;
+}

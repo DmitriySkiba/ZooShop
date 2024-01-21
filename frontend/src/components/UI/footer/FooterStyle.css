@@ -1,0 +1,42 @@
+.Footer{
+    align-self: flex-end;
+}
+
+
+.Footer__body{
+    font-family: Noto Sans;
+    margin-top: 16px;
+    margin-left: 12.5vw;
+    margin-bottom: 45px;
+    width: 75vw;
+    height: 200px;
+    box-shadow: 9px 6px #5EAB6B;
+    background: rgb(33, 61, 38);
+    border-radius: 25px;
+
+}
+
+.Footer__body h3{
+    padding: 10px 20px;
+    color: #cccccc;
+}
+
+.Footer__contacts {
+
+    display: flex;
+    justify-content: start;
+    margin-top: 16px;
+    margin-left: 12.5vw;
+    width: 75vw;
+    height: 55px;
+    box-shadow: 9px 6px #5EAB6B;
+    background: rgba(53, 94, 60, 1);
+    border-radius: 25px;
+
+    font-family: Noto Sans;
+    color: white;
+}
+
+.Footer__contacts h2{
+    margin-left: 20px;
+}
