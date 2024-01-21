@@ -1,0 +1,73 @@
+.Cart__body{
+    margin-left: 12.5vw;
+    width: 75vw;
+    margin-right: 12.5vw;
+    display: flex;
+    margin-top: 15px;
+}
+.Cart__BoughtForm{
+    width: 37.5vw;
+    background-color: #9ED8A7;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border-radius: 25px;
+    box-shadow: 9px 6px #5EAB6B;
+
+
+    font-family: Noto Sans;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Cart__items{
+    width: 38vw;
+    height: 375px;
+    overflow-y: scroll;
+}
+
+.Cart__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #9ED8A7;
+    border-radius: 25px;
+    width: 95%;
+}
+.Cart__item button{
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    background-color: #36593e;
+    border-radius: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: Noto Sans;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 6px 3px #5EAB6B;
+    cursor: pointer;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 12.5vw;
+    background-color: #36593e;
+    border-radius: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: Noto Sans;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 6px 3px #5EAB6B;
+    cursor: pointer;
+}

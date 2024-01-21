@@ -1,0 +1,103 @@
+html,body{
+    overflow-x: hidden
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 100%;
+
+    background-color: rgba(238, 255, 233, 0.53);
+}
+
+.App__img{
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+    width: 75vw;
+}
+
+.App__category{
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 75vw;
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+}
+.App__btn {
+    display: inline-block;
+    justify-content: center;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 9px 6px #5EAB6B;
+
+    color: white;
+    font-weight: 700;
+    font-family: Noto Sans;
+    font-size: 18px;
+
+    background: rgba(53, 94, 60, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.App__btn:hover{
+    background: rgb(45, 80, 51);
+}
+.App__btn:active{
+    background: rgb(33, 61, 38);
+    box-shadow: 9px 6px #5EAB6B;
+}
+
+.App__brands{
+    flex-direction: row;
+    display: block;
+    margin-left: 12.5vw;
+    margin-top: 15px;
+    width: 75vw;
+    height: 400px;
+
+    background: rgba(183, 255, 194, 1);
+
+    border-radius: 25px;
+    box-shadow: 9px 6px #5EAB6B;
+}
+
+.App__brands_btn{
+
+    display: block;
+    justify-content: flex-start;
+    margin: 20px 12px 0 12px;
+    width: 170px;
+    height: 170px;
+
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background: rgba(158, 216, 167, 1);
+
+
+}
+
+.App__brands_btn:hover{
+    background: rgb(146, 201, 155);
+}
+.App__brands_btn:active{
+    background: rgb(127, 176, 135);
+}
+
